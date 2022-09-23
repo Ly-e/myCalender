@@ -1,0 +1,101 @@
+/*siteHeader*/
+.siteHeader {
+    padding: 4px 16px;
+    margin-top: 12px;
+}
+
+.siteHeader>h1 {
+    font-size: 34px;
+    text-align: center;
+}
+
+/* end */
+/* calender  */
+.calender {
+    background-color: white;
+    margin: 16px;
+    border-radius: 24px;
+    color: rgb(51, 51, 51);
+
+}
+
+.calender-header {
+    text-align: center;
+    padding: 16px 0;
+    font-size: 18px;
+}
+
+.calender-header>time {}
+
+.calender-weekdays {
+    display: flex;
+}
+
+.calender-weekdays>li {
+    width: 14.2857%;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+
+}
+
+.calender-days {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calender-days>li {
+    width: 14.2857%;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+    border: 1px solid transparent;
+
+}
+
+.calender-days-today {
+    background-color: #fed32d;
+    border-radius: 12px;
+}
+
+.calender-days>li.calender-days-selected {
+    border: 1px solid #fed32d;
+    border-radius: 12px;
+}
+
+.calender-days-notCurrentMonth {
+    color: lightgrey;
+}
+
+.calender-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.calender-actions button {
+    font-size: 12px;
+    height: 24px;
+    padding: 0 6px;
+}
+
+.actionsLeft {}
+
+.actionsRight {
+    display: flex;
+}
+
+/* end */
+/* calender-schedule */
+.calender-schedule {
+    color: white;
+    margin: 16px;
+}
+
+.scheduleDate {
+    font-size: 24px;
+}
+
+.scheduleDetails {
+    margin-top: 12px;
+}
